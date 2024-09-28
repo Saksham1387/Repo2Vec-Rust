@@ -41,7 +41,7 @@ impl GitHubRepoManager {
             fs::create_dir_all(&log_dir)?;
         }
 
-        let access_token = Some(String::from("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"));
+        let access_token = Some(String::from(""));
 
         Ok(GitHubRepoManager {
             repo_id: repo_id.to_string(),
